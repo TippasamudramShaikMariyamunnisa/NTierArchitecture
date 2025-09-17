@@ -75,5 +75,18 @@ Returns all student records from the database.
 Handles insert, update, and delete operations based on the `ActionType` enum.
 
 ---
+📁 Folder Structure
 
+NTierDemoApp/
+│
+├── App.config              # Configuration file with connection string
+├── Helper.cs               # Helper class with ActionType enum
+├── SqlHelper.cs            # SQL helper class for DB operations
+├── StudentDB.cs            # DAO layer - handles database operations
+├── StudentBO.cs            # Business Logic layer - handles business rules
+├── StudentForm.cs          # Windows Form UI for managing students
+├── Models/                 # Data models and validation logic
+├── bin/                    # Compiled binaries (excluded via .gitignore)
+├── obj/                    # Temporary object files (excluded via .gitignore)
+└── .gitignore              # Git ignore rules for build and IDE files
 
